@@ -1,7 +1,7 @@
-let number = 16
+const number = 16
 let guess = 0
 
-while (guess != number) {
+while (guess !== number) {
   guess = prompt('Guess my age!')
   guess = parseInt(guess)
   if (guess > number) {
